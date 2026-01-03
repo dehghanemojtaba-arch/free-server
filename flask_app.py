@@ -294,4 +294,4 @@ if __name__ == '__main__':
     print("🚀 شروع ربات تریدینگ...")
     print(f"📊 Plotly available: {trader_core.PLOTLY_AVAILABLE}")
     print(f"🔢 تعداد ارزها: {len(trader_core.SYMBOLS)}")
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=10000, debug=False)
