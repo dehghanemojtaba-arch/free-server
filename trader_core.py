@@ -682,5 +682,4 @@ def analyze_symbol_complete(symbol, connector, timeframe="15m"):
     except Exception as e:
         print(f"⚠️ خطا در تحلیل {symbol}: {str(e)}")
         return None
-Copyright © 2011-2026 PythonAnywhere LLP — Terms — Privacy & Cookies
 
