@@ -2,8 +2,6 @@ services:
   - type: web
     name: free-server
     env: python
+    runtime: python-3.11
     buildCommand: pip install --upgrade pip && pip install -r requirements.txt
     startCommand: gunicorn flask_app:app
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.9
